@@ -2,7 +2,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"format": "prettier --write \"**/*.blade.php\" \"**/*.php\" \"**/*.md\"",
+		"format": "prettier --write \"**/*.blade.php\" \"**/*.php\" \"**/*.md\" \"!**/vendor/**\"",
 		"build": "vite build",
 		"dev": "vite"
 	},

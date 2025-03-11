@@ -18,8 +18,3 @@ composer global require "laravel/installer"
 ## Add Composer to PATH
 echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
 
-## Install NPM packages
-npm install
-
-## Install Composer packages
-composer install 
