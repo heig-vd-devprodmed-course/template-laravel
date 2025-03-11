@@ -19,9 +19,6 @@
 	"files.eol": "\n",
 	"files.insertFinalNewline": true,
 	"markdown.extension.toc.levels": "2..3",
-	"markdown.marp.breaks": "off",
-	"markdown.marp.html": "all",
-	"markdown.marp.themes": [".marp/theme.css"],
 	"markdownlint.config": {
 		"no-duplicate-heading": {
 			"siblings_only": true

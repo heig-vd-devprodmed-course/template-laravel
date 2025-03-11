@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"format": "prettier --write \"**/*.blade.php\" \"**/*.php\" \"**/*.md\"",
+		"build": "vite build",
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@prettier/plugin-php": "^0.22.4",
+		"prettier": "^3.5.3",
+		"prettier-plugin-blade": "^2.1.21"
+	}
+}
