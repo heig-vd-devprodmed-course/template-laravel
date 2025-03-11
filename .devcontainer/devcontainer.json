@@ -1,5 +1,5 @@
 {
-	"name": "HEIG-VD DevProdMéd Course Development Container",
+	"name": "HEIG-VD Laravel Template Development Container",
 	"dockerComposeFile": "docker-compose.yaml",
 	"service": "devcontainer",
 	"workspaceFolder": "/workspace",
