@@ -21,6 +21,12 @@ Ouvrez un terminal et exécutez les commandes suivantes :
 # Installez les dépendances du projet
 composer install
 
+cp .env.example .env
+
+php artisan migrate
+
+php artisan key:generate
+
 # Démarrez le serveur de développement
 php artisan serve
 ```
